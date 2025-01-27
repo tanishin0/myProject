@@ -1,0 +1,26 @@
+@media (min-width: 60px) {
+  body {
+    background-color: lightblue;
+  }
+}
+#navbar {
+  width: 100%;
+  height: auto;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#main-doc {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+img {
+  height: 200px;
+  width: 300px;
+}
