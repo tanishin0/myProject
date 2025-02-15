@@ -1,0 +1,24 @@
+@media only screen and (min-width: 60px) {
+  body {
+    background-color: lightblue;
+  }
+}
+nav {
+  display: flex;
+}
+#nav-bar {
+  position: fixed;
+  top: 0;
+}
+ul {
+  display: flex;
+  padding-left: 200px;
+  margin: 15px;
+  gap: 10px;
+}
+li {
+  display: inline-block;
+}
+img {
+  height: 250px;
+}
